@@ -32,14 +32,14 @@ repos:
 
       - id: rust-fmt
         name: Cargo fmt
-        language: system
+        language: script
         types: [rust]
-        entry: cargo fmt --
+        entry: ./scripts/pre-commit/cargo-fmt.sh
         pass_filenames: false
 
       - id: clippy
         name: Cargo clippy
         language: system
         types: [rust]
-        entry: cargo clippy -- -D warnings
+        entry: ./scripts/pre-commit/cargo-clippy.sh
         pass_filenames: false
