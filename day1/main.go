@@ -16,14 +16,14 @@ func check(err error) {
 
 func readInput(filePath string) string {
 	data, err := ioutil.ReadFile(filePath)
-    check(err)
+	check(err)
 	return string(data)
 }
 
 func partOne(entries []int) (int, error) {
 	for i, v := range entries {
 		for _, e := range entries[i+1:] {
-			if v + e == 2020 {
+			if v+e == 2020 {
 				return v * e, nil
 			}
 		}
@@ -35,7 +35,7 @@ func partTwo(entries []int) (int, error) {
 	for i, v := range entries {
 		for j, e := range entries[i+1:] {
 			for _, n := range entries[j+1:] {
-				if v + e + n == 2020 {
+				if v+e+n == 2020 {
 					return v * e * n, nil
 				}
 			}
@@ -48,7 +48,7 @@ func main() {
 	data := readInput("./input.txt")
 
 	inputs := strings.Split(data, "\n")
-	inputs = inputs[:len(inputs) - 1]
+	inputs = inputs[:len(inputs)-1]
 	entries := make([]int, len(inputs))
 
 	for i, v := range inputs {
