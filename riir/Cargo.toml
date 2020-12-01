@@ -9,5 +9,3 @@ edition = "2018"
 [[bin]]
 name = "day1"
 path = "day1/main.rs"
-
-[dependencies]
