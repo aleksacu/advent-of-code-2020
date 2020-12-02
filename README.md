@@ -7,3 +7,9 @@ as well. All the solutions are going to be rewritten in rust (`riir` directory).
 
 At least some of the solutions are hopefully going to be streamed live on [aleksacu](https://twitch.tv/aleksacu)
 twitch channel
+
+## Solutions
+
+| Day                                      | Languages                          |
+| ---------------------------------------- | ---------------------------------- |
+| [1](https://adventofcode.com/2020/day/1) | [go](day1/main.go), [rust](riir/day1/main.rs) |
