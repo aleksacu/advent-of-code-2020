@@ -8,6 +8,32 @@ as well. All the solutions are going to be rewritten in rust (`riir` directory).
 At least some of the solutions are hopefully going to be streamed live on [aleksacu](https://twitch.tv/aleksacu)
 twitch channel
 
+## Getting started
+
+In some cases you need to change directory, either because of the input path or
+because the compiler requires it.
+
+### Go
+
+```shell script
+cd day1
+go run main.go
+```
+
+### Rust
+
+```shell script
+cd riir
+cargo run --bin day1
+```
+
+### Python
+
+```shell script
+cd day3
+python main.py
+```
+
 ## Solutions
 
 | Day                                      | Languages                                         |
