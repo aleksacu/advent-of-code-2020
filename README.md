@@ -10,8 +10,8 @@ twitch channel
 
 ## Solutions
 
-| Day                                      | Languages                                     |
-| ---------------------------------------- | --------------------------------------------- |
-| [1](https://adventofcode.com/2020/day/1) | [go](day1/main.go), [rust](riir/day1/main.rs) |
-| [2](https://adventofcode.com/2020/day/2) | [go](day2/main.go), [rust](riir/day2/main.rs) |
-| [3](https://adventofcode.com/2020/day/3) | [python](day3/main.py)                        |
+| Day                                      | Languages                                         |
+| ---------------------------------------- | ------------------------------------------------- |
+| [1](https://adventofcode.com/2020/day/1) | [go](day1/main.go), [rust](riir/day1/main.rs)     |
+| [2](https://adventofcode.com/2020/day/2) | [go](day2/main.go), [rust](riir/day2/main.rs)     |
+| [3](https://adventofcode.com/2020/day/3) | [python](day3/main.py), [rust](riir/day3/main.rs) |
