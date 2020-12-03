@@ -8,8 +8,7 @@ def count_trees(map_, r, d):
     for y in range(d, height, d):
         if (map_[y][x]) == "#":
             count += 1
-        x += r
-        x %= width
+        x = (x + r) % width
 
     return count
 
@@ -17,8 +16,6 @@ def count_trees(map_, r, d):
 def main():
     with open("input.txt") as f:
         map_ = f.read().splitlines()
-
-    print(f"Part one: {count_trees(map_, 3, 1)}")
 
     slopes = (
         (1, 1),
@@ -29,8 +26,12 @@ def main():
     )
 
     prod = 1
+
     for slope in slopes:
-        prod *= count_trees(map_, *slope)
+        count = count_trees(map_, *slope)
+        if slope == (3, 1):
+            print(f"Part one: {count}")
+        prod *= count
 
     print(f"Part two: {prod}")
 
