@@ -1,8 +1,9 @@
+import os
 import re
 
 
 def main():
-    with open("input.txt") as f:
+    with open(os.path.join(os.path.dirname(__file__), "input.txt")) as f:
         passports = f.read().split("\n\n")
 
     required_fields = (

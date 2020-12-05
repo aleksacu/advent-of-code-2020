@@ -1,3 +1,6 @@
+import os
+
+
 def count_trees(map_, r, d):
     width = len(map_[0])
     height = len(map_)
@@ -14,7 +17,7 @@ def count_trees(map_, r, d):
 
 
 def main():
-    with open("input.txt") as f:
+    with open(os.path.join(os.path.dirname(__file__), "input.txt")) as f:
         map_ = f.read().splitlines()
 
     slopes = (
