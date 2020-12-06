@@ -48,3 +48,4 @@ python day3/main.py
 | [3](https://adventofcode.com/2020/day/3) | [python](day3/main.py), [rust](riir/day3/main.rs) |
 | [4](https://adventofcode.com/2020/day/4) | [python](day4/main.py), [rust](riir/day4/main.rs) |
 | [5](https://adventofcode.com/2020/day/5) | [python](day5/main.py), [rust](riir/day5/main.rs) |
+| [6](https://adventofcode.com/2020/day/6) | [python](day6/main.py), [rust](riir/day6/main.rs) |
