@@ -1,5 +1,9 @@
 # advent-of-code-2020
 
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](.pre-commit-config.yaml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/aleksacu/advent-of-code-2020/main.svg)](https://results.pre-commit.ci/latest/github/aleksacu/advent-of-code-2020/main)
+
 Solutions to advent of code puzzles in various programming languages
 
 Main solutions are mostly going to be written in go, but sometimes in other languages
