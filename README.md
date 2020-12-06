@@ -9,6 +9,7 @@ At least some of the solutions are hopefully going to be streamed live on [aleks
 twitch channel
 
 ## Stages of Advent of Code
+
 ![aoc-stages](aoc-stages.png)
 
 I reached stage 2 on day 3. Hopefully I don't reach stage 3.
@@ -35,8 +36,7 @@ cargo run --bin day1
 ### Python
 
 ```shell script
-cd day3
-python main.py
+python day3/main.py
 ```
 
 ## Solutions
@@ -47,3 +47,4 @@ python main.py
 | [2](https://adventofcode.com/2020/day/2) | [go](day2/main.go), [rust](riir/day2/main.rs)     |
 | [3](https://adventofcode.com/2020/day/3) | [python](day3/main.py), [rust](riir/day3/main.rs) |
 | [4](https://adventofcode.com/2020/day/4) | [python](day4/main.py), [rust](riir/day4/main.rs) |
+| [5](https://adventofcode.com/2020/day/5) | [python](day5/main.py), [rust](riir/day5/main.rs) |
