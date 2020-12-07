@@ -12,7 +12,7 @@ mkdir "day$1"
 
 cat <<EOF > "day$1/main.rs"
 fn main() {
-
+    let input = include_str!("./input.txt").lines().collect::<Vec<&str>>();
 }
 EOF
 
