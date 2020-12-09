@@ -55,3 +55,4 @@ python day3/main.py
 | [6](https://adventofcode.com/2020/day/6) | [python](day6/main.py), [rust](riir/day6/main.rs) |
 | [7](https://adventofcode.com/2020/day/7) | [python](day7/main.py)                            |
 | [8](https://adventofcode.com/2020/day/8) | [python](day8/main.py)                            |
+| [9](https://adventofcode.com/2020/day/9) | [python](day9/main.py)                            |
