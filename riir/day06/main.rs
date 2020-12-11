@@ -26,5 +26,5 @@ fn main() {
     }
 
     println!("Part one: {}", anyone);
-    println!("Part one: {}", everyone);
+    println!("Part two: {}", everyone);
 }
